@@ -7,35 +7,22 @@ import sqlite3
 def extrair() -> pd.DataFrame:
     df_bruto = pd.read_csv("data/raw/vendas_bruto.csv", encoding="utf-8")
     return df_bruto
-
 # %%
-bruto = extrair()
+def transformar(df_bruto: pd.DataFrame) -> pd.DataFrame:
+    df_limpo =  df_bruto.copy()
+    df_limpo["cliente"] = df_limpo["cliente"].str.strip()
+    df_limpo["produto"] = df_limpo["produto"].str.strip()
+    df_limpo["vendedor"] = df_limpo["vendedor"].str.strip()
+    return df_limpo
 # %%
-print(bruto.shape)
+if __name__ == "__main__":
+    bruto = extrair()
+    limpo = transformar(bruto)
 # %%
-print(bruto.head(10))
+print(limpo)
 # %%
-print(bruto["data_venda"])
+print(limpo[["cliente", "produto", "vendedor"]])
+print(limpo["cliente"].unique())
+print(limpo["produto"].unique())
+print(limpo["vendedor"].unique())
 # %%
-print(bruto.info())
-# %%
-print(bruto.isnull().sum())
-# %%
-print(bruto["categoria"].unique())
-# %%
-print(bruto["categoria"].value_counts())
-# %%
-print(bruto["vendedor"].unique())
-# %%
-print(bruto["forma_pagamento"].unique())
-# %%
-print(bruto["data_venda"].head(10))
-# %%
-print(bruto.duplicated().sum())
-# %%
-condicao = bruto["id_venda"].duplicated(keep=False)
-print(condicao)
-
-# %%
-filtado = df[condicao]
-print(filtado)
