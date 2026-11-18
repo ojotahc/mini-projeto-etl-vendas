@@ -1,0 +1,85 @@
+id_venda,data_venda,cliente,produto,categoria,quantidade,preco_unitario,vendedor,forma_pagamento
+1046,2026-09-26,Bruno Lima,Marca-texto,Papelaria,1,4.5,Carlos,Cartão
+1027,01/08/2026,Isabela Costa,Estojo,Acessórios,,24.9,Carlos,Dinheiro
+1071,2026-09-16,Fábio Nunes,Caderno 96 folhas,papelaria,2,14.9,Marina,dinheiro
+1042,2026-09-25,Gabriela Alves,Calculadora científica,Eletrônicos,4,,Fernanda,Dinheiro
+1041,2026-09-30,  Diego Rocha ,Pen drive 32GB,Eletrônicos,1,39.9,Carlos,Dinheiro
+1066,2026-08-12,  Elisa Prado ,Pen drive 32GB,Eletrônicos,1,39.9,,Pix
+1065,27-10-2026,Isabela Costa,Estojo,Acessórios,4,24.9,Paulo,Cartão
+1022,2026-08-18,,Marca-texto,Papelaria,1,4.5,Carlos,Cartão
+1072,14/08/2026,Isabela Costa,Calculadora científica,Eletrônicos,4,59.9,Marina,Cartão
+1078,05-09-2026,  Larissa Melo ,Calculadora científica,Eletrônicos,,59.9,Fernanda,Dinheiro
+1051,2026-09-10,Ana Souza,Caderno 96 folhas,Papelaria,5,14.9,Fernanda,Dinheiro
+1007,2026-09-05,Diego Rocha,Lápis HB,Papelaria,3,1.8,Carlos,Cartão
+1002,2026-08-29,Marcos Silva,Lápis HB,Papelaria,1,1.8,Carlos,Dinheiro
+1057,2026-10-25,Hugo Martins,Estojo,Acessórios,3,,,Cartão
+1062,2026-10-10,Larissa Melo,Estojo,Acessórios,1,24.9,Marina,Pix
+1067,2026-08-17,Carla Dias,Estojo,Acessórios,6,24.9, FERNANDA ,Dinheiro
+1013,16-09-2026,Fábio Nunes,Lápis HB,Papelaria,3,1.8,Marina,Dinheiro
+1066,2026-08-12,  Elisa Prado ,Pen drive 32GB,Eletrônicos,1,39.9,,Pix
+1020,2026-08-18,Marcos Silva,Mochila escolar,Acessórios,5,129.9,Paulo,Dinheiro
+1005,2026-10-23,Gabriela Alves,Marca-texto,Papelaria,2,4.5,Fernanda,Dinheiro
+1037,2026-10-10,,Mochila escolar,Acessórios,2,129.9,Carlos,cartão
+1049,2026-09-03,Elisa Prado,Fone de ouvido,eletrônicos,4,49.9,Fernanda,Cartão
+1024,2026-09-18,Hugo Martins,Papel A4 (resma),Papelaria,5,28.9,Paulo,Dinheiro
+1047,2026-08-31,Gabriela Alves,Lápis HB,Papelaria,4,1.8,FERNANDA ,Cartão
+1038,2026-10-30,Diego Rocha,Caderno 96 folhas,papelaria,1,14.9,Carlos,Pix
+1073,2026-08-21,Gabriela Alves,Lápis HB  ,Papelaria,1,1.8,Marina,Dinheiro
+1075,2026-08-21,Gabriela Alves,Caneta esferográfica azul,Papelaria,,2.5,Fernanda,Cartão
+1023,2026-08-20,Larissa Melo,Lápis HB  ,Papelaria,4,1.8,Carlos,Pix
+1003,2026-09-24,Ana Souza,Caderno 96 folhas,Papelaria,1,14.9,Marina,Cartão
+1063,15/08/2026,Marcos Silva,Caneta esferográfica azul,Papelaria,5,2.5,Marina,Pix
+1076,2026-08-26,Fábio Nunes,Fone de ouvido,Eletrônicos,3,49.9,Marina,Cartão
+1035,2026-10-23,Hugo Martins,Calculadora científica,Eletrônicos,5,59.9,Fernanda,Cartão
+1068,2026-10-30,Isabela Costa,Pen drive 32GB,Eletrônicos,1,39.9,Carlos,Cartão
+1018,28/08/2026,Marcos Silva,Papel A4 (resma),Papelaria,3,28.9,Marina,Dinheiro
+1070,2026-10-10,Gabriela Alves,Lápis HB,Papelaria,2,1.8,Carlos,Pix
+1017,2026-08-30,Fábio Nunes,Caderno 96 folhas,papelaria,4,14.9,Paulo,Cartão
+1044,2026-09-01,Diego Rocha,Mochila escolar,Acessórios,5,129.9,Fernanda,Cartão
+1012,2026-08-30,Gabriela Alves,Caneta esferográfica azul,Papelaria,3,2.5,Fernanda,Dinheiro
+1011,2026-08-09,,Caderno 96 folhas,Papelaria,2,14.9,Paulo,Cartão
+1060,2026-09-01,Elisa Prado,Calculadora científica,Eletrônicos,2,,Fernanda,Dinheiro
+1048,2026-09-21,Carla Dias,Caderno 96 folhas,Papelaria,4,14.9,Carlos,Pix
+1028,2026-09-08,João Pereira,Marca-texto,Papelaria,2,4.5,,Pix
+1033,2026-08-22,  Isabela Costa ,Estojo,Acessórios,5,24.9,Fernanda,Cartão
+1043,2026-08-07,Ana Souza,Caneta esferográfica azul,Papelaria,4,2.5,Paulo,Cartão
+1080,2026-10-14,Ana Souza,Estojo,Acessórios,1,24.9,Fernanda,Pix
+1021,2026-10-14,João Pereira,Pen drive 32GB,Eletrônicos,4,39.9,Paulo,Cartão
+1039,10-08-2026,Diego Rocha,Marca-texto  ,Papelaria,3,4.5,Fernanda,cartão
+1056,2026-08-27,  Diego Rocha ,Calculadora científica,Eletrônicos,,59.9,FERNANDA ,Cartão
+1074,2026-09-12,  Larissa Melo ,Pen drive 32GB,Eletrônicos,6,39.9,Marina,Pix
+1043,2026-08-07,Ana Souza,Caneta esferográfica azul,Papelaria,4,2.5,Paulo,Cartão
+1053,2026-08-09,Bruno Lima,Papel A4 (resma),Papelaria,6,28.9,Marina,Pix
+1009,28/09/2026,Bruno Lima,Marca-texto,Papelaria,4,4.5,Carlos,Dinheiro
+1058,2026-09-28,João Pereira,Papel A4 (resma),Papelaria,1,28.9,Carlos,Dinheiro
+1008,2026-09-18,Fábio Nunes,Caneta esferográfica azul,Papelaria,3,2.5,Paulo,Cartão
+1016,2026-10-28,Diego Rocha,Marca-texto,Papelaria,6,4.5,Paulo,Cartão
+1036,01/09/2026,Bruno Lima,Mochila escolar,Acessórios,3,129.9,Carlos,Dinheiro
+1079,2026-10-08,Ana Souza,Calculadora científica  ,Eletrônicos,1,59.9,PAULO ,Cartão
+1030,2026-08-03,Fábio Nunes,Caneta esferográfica azul,Papelaria,3,2.5,Marina,Cartão
+1034,2026-10-09,Marcos Silva,Mochila escolar,Acessórios,3,129.9,Fernanda,Dinheiro
+1045,24/09/2026,Elisa Prado,Lápis HB,Papelaria,4,1.8,Marina,Cartão
+1069,2026-10-28,Isabela Costa,Lápis HB,Papelaria,1,1.8,PAULO ,Dinheiro
+1012,2026-08-30,Gabriela Alves,Caneta esferográfica azul,Papelaria,3,2.5,Fernanda,Dinheiro
+1015,2026-09-01,  Hugo Martins ,Lápis HB,Papelaria,4,1.8,Paulo,Dinheiro
+1055,2026-08-11,Larissa Melo,Pen drive 32GB,Eletrônicos,5,39.9,Paulo,Pix
+1014,2026-09-04,João Pereira,Caneta esferográfica azul,Papelaria,6,2.5,Marina,Dinheiro
+1001,2026-10-21,Ana Souza,Caneta esferográfica azul,Papelaria,6,2.5,PAULO ,cartão
+1080,2026-10-14,Ana Souza,Estojo,Acessórios,1,24.9,Fernanda,Pix
+1077,2026-08-04,Gabriela Alves,Mochila escolar,Acessórios,3,129.9,Paulo,Cartão
+1052,07-10-2026,Ana Souza,Lápis HB  ,papelaria,5,1.8,Carlos,Cartão
+1064,2026-09-06,Diego Rocha,Papel A4 (resma),Papelaria,6,28.9,Paulo,Cartão
+1050,2026-08-25,  Diego Rocha ,Estojo,Acessórios,1,24.9,Carlos,Dinheiro
+1025,2026-08-02,  Larissa Melo ,Caneta esferográfica azul,papelaria,5,2.5,Paulo,Dinheiro
+1054,16/08/2026,Diego Rocha,Papel A4 (resma),papelaria,5,28.9,Carlos,Dinheiro
+1059,2026-08-28,Elisa Prado,Marca-texto,Papelaria,2,4.5,Paulo,Cartão
+1010,2026-09-07,Fábio Nunes,Papel A4 (resma),Papelaria,5,28.9,Marina,Dinheiro
+1061,2026-10-30,João Pereira,Estojo,Acessórios,6,24.9,,Dinheiro
+1032,2026-10-08,Carla Dias,Lápis HB,Papelaria,6,1.8,Fernanda,Dinheiro
+1006,2026-09-05,Carla Dias,Caderno 96 folhas,Papelaria,6,14.9, FERNANDA ,Pix
+1004,2026-10-04,Ana Souza,Papel A4 (resma),Papelaria,5,28.9,Marina,Dinheiro
+1019,2026-10-03,Larissa Melo,Pen drive 32GB,Eletrônicos,4,39.9,Marina,Pix
+1026,13-09-2026,Elisa Prado,Caneta esferográfica azul,Papelaria,4,2.5,MARINA ,Pix
+1029,2026-08-21,Isabela Costa,Marca-texto,Papelaria,1,4.5,Paulo,Pix
+1040,2026-10-09,Marcos Silva,Lápis HB,Papelaria,5,1.8,Fernanda,Cartão
+1031,2026-08-31,Bruno Lima,Papel A4 (resma),Papelaria,1,28.9,Fernanda,Cartão
