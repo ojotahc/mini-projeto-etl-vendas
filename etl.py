@@ -21,5 +21,21 @@ print(bruto.info())
 # %%
 print(bruto.isnull().sum())
 # %%
+print(bruto["categoria"].unique())
+# %%
+print(bruto["categoria"].value_counts())
+# %%
+print(bruto["vendedor"].unique())
+# %%
+print(bruto["forma_pagamento"].unique())
+# %%
+print(bruto["data_venda"].head(10))
+# %%
 print(bruto.duplicated().sum())
 # %%
+condicao = bruto["id_venda"].duplicated(keep=False)
+print(condicao)
+
+# %%
+filtado = df[condicao]
+print(filtado)
