@@ -50,3 +50,16 @@ print(limpo.shape)
 print(limpo.duplicated().sum())
 print(limpo["id_venda"].duplicated().sum())
 ```
+
+## 4. Validação de Datas (`data_venda`)
+
+Confere os valores de data convertidos, o período coberto (menor e maior data) e a ausência de nulos na coluna `data_venda`:
+
+```python
+print(limpo["data_venda"])
+# %%
+print(limpo["data_venda"].min())
+print(limpo["data_venda"].max())
+# %%
+print(limpo["data_venda"].isnull().sum())
+```

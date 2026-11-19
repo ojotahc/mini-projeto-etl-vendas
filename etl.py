@@ -17,14 +17,23 @@ def transformar(df_bruto: pd.DataFrame) -> pd.DataFrame:
     df_limpo["categoria"] = df_limpo["categoria"].str.capitalize()
     df_limpo["forma_pagamento"] = df_limpo["forma_pagamento"].str.capitalize()
     df_limpo = df_limpo.drop_duplicates(subset=["id_venda"], keep="first")
+    texto = df_limpo["data_venda"]
+    ano_primeiro = pd.to_datetime(texto, format="%Y-%m-%d", errors="coerce")
+    dia_barra    = pd.to_datetime(texto, format="%d/%m/%Y", errors="coerce")
+    dia_hifen    = pd.to_datetime(texto, format="%d-%m-%Y", errors="coerce")
+    df_limpo["data_venda"] = ano_primeiro.fillna(dia_barra).fillna(dia_hifen)
     return df_limpo
 # %%
 if __name__ == "__main__":
     bruto = extrair()
     limpo = transformar(bruto)
 # %%
-print(limpo)
-print(limpo.shape)
-print(limpo.duplicated().sum())
-print(limpo["id_venda"].duplicated().sum())
+
 # %%
+print(limpo)
+print(limpo["data_venda"])
+# %%
+print(limpo["data_venda"].min())
+print(limpo["data_venda"].max())
+# %%
+print(limpo["data_venda"].isnull().sum())
