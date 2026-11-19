@@ -30,10 +30,4 @@ if __name__ == "__main__":
 # %%
 
 # %%
-print(limpo)
-print(limpo["data_venda"])
 # %%
-print(limpo["data_venda"].min())
-print(limpo["data_venda"].max())
-# %%
-print(limpo["data_venda"].isnull().sum())
