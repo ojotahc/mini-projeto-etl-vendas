@@ -21,6 +21,7 @@ print(limpo["forma_pagamento"].unique())
 Compara a quantidade de registros distintos antes (`bruto`) e depois (`limpo`) da remoção de espaços extras e padronização de caixa (maiúsculas/minúsculas):
 
 ### Antes (`bruto`)
+
 ```python
 print(bruto["cliente"].nunique())
 print(bruto["produto"].nunique())
@@ -30,10 +31,22 @@ print(bruto["forma_pagamento"].nunique())
 ```
 
 ### Depois (`limpo`)
+
 ```python
 print(limpo["cliente"].nunique())
 print(limpo["produto"].nunique())
 print(limpo["vendedor"].nunique())
 print(limpo["categoria"].nunique())
 print(limpo["forma_pagamento"].nunique())
+```
+
+## 3. Etapa 3 - Removendo Duplicados
+
+Valida o novo formato do DataFrame e confirma se ainda existem linhas inteiras repetidas ou IDs de venda duplicados:
+
+```python
+print(limpo)
+print(limpo.shape)
+print(limpo.duplicated().sum())
+print(limpo["id_venda"].duplicated().sum())
 ```
