@@ -3,6 +3,8 @@ import pandas as pd
 import os 
 import sqlite3
 
+DB = "data/processed/vendas.db"
+
 # %%
 def extrair() -> pd.DataFrame:
     df_bruto = pd.read_csv("data/raw/vendas_bruto.csv", encoding="utf-8")
@@ -39,8 +41,32 @@ def transformar(df_bruto: pd.DataFrame) -> pd.DataFrame:
     df_limpo = df_limpo.reset_index(drop=True)
 
     return df_limpo
-# %%
+
+def carregar(df_limpo: pd.DataFrame) -> None:
+    os.makedirs("data/processed", exist_ok=True)
+
+    df_para_gravar = df_limpo.copy()
+    df_para_gravar["data_venda"] = df_para_gravar["data_venda"].dt.strftime("%Y-%m-%d")
+
+    conexao = sqlite3.connect(DB)
+    try:
+        df_para_gravar.to_sql("vendas", conexao, if_exists="replace", index=False)
+    finally:
+        conexao.close()
+
+
 if __name__ == "__main__":
     bruto = extrair()
     limpo = transformar(bruto)
+    carregar(limpo)
+# %%
+"""
+Teste rápido
+
+con = sqlite3.connect(DB)
+print(pd.read_sql("SELECT COUNT(*) AS linhas FROM vendas", con))
+print(pd.read_sql("SELECT SUM(quantidade * preco_unitario) AS faturamento FROM vendas", con))
+print(pd.read_sql("SELECT * FROM vendas LIMIT 5", con))
+con.close()
+"""
 # %%
